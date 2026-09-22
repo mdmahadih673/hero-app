@@ -7,27 +7,10 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'i.pinimg.com',
-        port: '',
-        pathname: '/**',
-        search: '',
-      },
-      {
-        protocol: 'https',
-        hostname: 'upload.wikimedia.org',
-        port: '',
-        pathname: '/**',
-        search: '',
-      },
-      {
-        protocol: 'https',
-        hostname: 'png.pngtree.com',
-        port: '',
-        pathname: '/**',
-        search: '',
+        hostname: '**',
       },
     ],
-  }, reactCompiler: true,
+  },
 };
 
 export default nextConfig;
