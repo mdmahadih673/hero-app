@@ -1,8 +1,7 @@
-export interface PageProps {
-    prop: string
-}
+import InstallationContent from "./InstallationContent";
 
-export default function Page({ prop }: PageProps) {
-    
-    return 
-}
+const InstallationPage = () => {
+    return <InstallationContent />;
+};
+
+export default InstallationPage;    

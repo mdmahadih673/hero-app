@@ -1,4 +1,4 @@
-import { IApp } from "@/app/type";
+import { IApp } from "@/type/type";
 import AppsCard from "./appsCard";
 import Link from "next/link";
 

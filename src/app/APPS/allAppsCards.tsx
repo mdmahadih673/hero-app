@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Download, Star } from "lucide-react";
-import { IApp } from "../type";
+import { IApp } from "../../type/type";
 import Link from "next/link";
 
 export interface PageProps {

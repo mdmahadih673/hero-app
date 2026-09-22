@@ -1,8 +1,9 @@
-import { IApp } from "@/app/type";
+import { IApp } from "@/type/type";
 import { getApps } from "@/lib/page";
 import Image from "next/image";
 import { Download, Star, MessageSquare } from "lucide-react";
 import Link from "next/link";
+import AppBtn from "@/app/components/btn/btn";
 
 export interface AppDetalisProps {
     params: {
@@ -101,10 +102,9 @@ const AppDetalis = async ({ params }: AppDetalisProps) => {
                                 </p>
                             </div>
                         </div>
-
-                        <button className="mt-5 rounded-lg bg-emerald-500 px-5 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600">
-                            Install Now ({app.size} MB)
-                        </button>
+                        <div className="mt-4">
+                            <AppBtn app = {app} />
+                        </div>
                     </div>
                 </div>
             </div>

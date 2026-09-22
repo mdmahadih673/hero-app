@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Download, Star } from "lucide-react";
-import { IApp } from "@/app/type";
+import { IApp } from "@/type/type";
 
 interface AppCardProps {
     apps: IApp;
