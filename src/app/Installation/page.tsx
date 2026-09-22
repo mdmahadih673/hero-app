@@ -1,16 +1,8 @@
-import React from 'react';
+export interface PageProps {
+    prop: string
+}
 
-
-
-
-
-
-const InstallationPage = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
-
-export default InstallationPage;
+export default function Page({ prop }: PageProps) {
+    
+    return 
+}
