@@ -11,7 +11,7 @@ const HeroPage = () => {
     return (
         <div className="bg-[#f4f4f6]">
             {/* Top: headline + phone mockup */}
-            <section className="px-6 pt-16 pb-10 text-center">
+            <section className="px-6 pt-16 pb-10 text-center container mx-auto">
                 <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-slate-900">
                     We Build
                     <br />
