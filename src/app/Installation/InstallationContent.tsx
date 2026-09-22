@@ -6,7 +6,7 @@ import { Download, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useContext, useState } from "react";
-import { IApp } from "@/type/type";
+import { IApp } from "@/app/type";
 import ButtonPage from "./button";
 
 type SortOption = "size" | "downloads" | "rating";

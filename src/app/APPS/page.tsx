@@ -1,5 +1,5 @@
 import { getApps } from '@/lib/page';
-import { IApp } from '../../type/type';
+import { IApp } from '../type';
 import AllAppsCards from './allAppsCards';
 
 

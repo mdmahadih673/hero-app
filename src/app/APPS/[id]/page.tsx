@@ -1,4 +1,4 @@
-import { IApp } from "@/type/type";
+import { IApp } from "@/app/type";
 import { getApps } from "@/lib/page";
 import Image from "next/image";
 import { Download, Star, MessageSquare } from "lucide-react";
@@ -103,7 +103,7 @@ const AppDetalis = async ({ params }: AppDetalisProps) => {
                             </div>
                         </div>
                         <div className="mt-4">
-                            <AppBtn app = {app} />
+                            <AppBtn app={app} />
                         </div>
                     </div>
                 </div>

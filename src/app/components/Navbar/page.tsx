@@ -39,7 +39,7 @@ const Navbar = () => {
                     <Link href="/" className="flex items-center gap-2">
                         <Image src={logo} alt="Book Vibe" width={34} height={34} priority />
                         <span className="text-xl font-extrabold tracking-tight text-gray-800">
-                            HERO.<span className="text-green-600">IO</span>
+                            HERO.<span className="text-green-600"> IO</span>
                         </span>
                     </Link>
                 </div>

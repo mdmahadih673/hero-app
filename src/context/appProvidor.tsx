@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, ReactNode, useState } from 'react';
-import { IApp } from '@/type/type';
+import { IApp } from '@/app/type';
 
 
 export interface IAppcontext {

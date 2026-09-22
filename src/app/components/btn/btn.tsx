@@ -1,7 +1,7 @@
 "use client";
 
 import { Appcontext } from '@/context/appProvidor';
-import { IApp } from '@/type/type';
+import { IApp } from '@/app/type';
 import { useContext } from 'react';
 
 const AppBtn = ({ app }: { app: IApp }) => {
